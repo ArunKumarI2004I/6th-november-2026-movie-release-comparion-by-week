@@ -1,0 +1,159 @@
+# Film Box Office Data Analysis
+
+## 1. Project Overview
+
+This project presents a comparative analysis of the box-office performance of three Indian films using data analytics and visualization techniques.
+
+The analysis focuses on theatrical performance across the Indian market, examining revenue collections, audience occupancy, theatrical show counts, and daily collection trends.
+
+The objective is to transform raw box-office data into meaningful insights through data preparation, KPI development, and interactive dashboard visualizations.
+
+## 2. Project Objectives
+
+The primary objectives of this project are:
+
+- Analyze and compare the box-office performance of selected films.
+- Evaluate daily India Net and India Gross collections.
+- Examine trends in theatrical revenue over time.
+- Analyze theatre occupancy and show distribution.
+- Compare first-week collection performance.
+- Identify patterns and differences in commercial performance.
+
+## 3. Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Power BI | Dashboard development and data visualization |
+| Microsoft Excel | Data preparation and organization |
+| DAX | KPI calculations and analytical measures |
+| CSV | Structured data storage and input |
+
+## 4. Dataset Description
+
+The dataset contains box-office information organized by film and collection date.
+
+The primary attributes include:
+
+| Attribute | Description |
+|---|---|
+| Movie | Name of the film |
+| Date | Date of box-office collection |
+| Day | Day number of the theatrical run |
+| India Net | Net theatrical collection in India |
+| India Gross | Gross theatrical collection in India |
+| Overseas Gross | Collection from international markets |
+| Worldwide Gross | Combined worldwide gross collection |
+| Shows | Number of theatrical shows |
+| Occupancy | Percentage of occupied theatre seats |
+| Source | Reference for the reported data |
+
+Data is organized to support film-level comparisons and time-series analysis.
+
+## 5. Key Performance Indicators
+
+The following KPIs are used to evaluate film performance:
+
+- **India Net Collection:** Total net box-office revenue generated in India.
+- **India Gross Collection:** Total gross theatrical revenue generated in India.
+- **Overseas Gross Collection:** Revenue generated from international theatrical markets.
+- **Worldwide Gross Collection:** Combined gross revenue across domestic and international markets.
+- **Total Shows:** Number of theatrical shows recorded.
+- **Average Occupancy:** Average theatre occupancy percentage.
+- **Daily Collection:** Revenue generated on individual collection dates.
+- **First-Week Collection:** Revenue accumulated during the first seven days of release.
+
+## 6. Analytical Approach
+
+The project follows a structured analytical workflow.
+
+### 6.1 Data Collection
+
+Box-office data for the selected films was collected and organized into a structured dataset.
+
+### 6.2 Data Preparation
+
+The collected data was prepared for analysis by organizing attributes, reviewing data types, and ensuring consistency across the selected films.
+
+### 6.3 KPI Development
+
+Relevant analytical measures were developed to evaluate revenue performance, theatrical activity, and audience occupancy.
+
+### 6.4 Data Visualization
+
+Power BI was used to create visual representations of the data, enabling comparisons across films and collection periods.
+
+### 6.5 Comparative Analysis
+
+The selected films were evaluated using common performance indicators to identify differences in revenue generation and theatrical performance.
+
+## 7. Dashboard Analysis
+
+The dashboard provides visual insights into the following analytical areas:
+
+1. **Revenue Analysis:** Comparison of India Net, India Gross, and worldwide collections.
+2. **Daily Collection Trends:** Evaluation of revenue fluctuations throughout theatrical runs.
+3. **Occupancy Analysis:** Examination of audience attendance patterns.
+4. **Theatrical Distribution:** Analysis of show counts and their relationship with collections.
+5. **Film Comparison:** Comparative evaluation of box-office performance.
+6. **First-Week Performance:** Assessment of collections during the initial seven days.
+
+## 8. Key Findings
+
+The analysis highlights differences in box-office performance among the selected films.
+
+Ramayana: Part 1 recorded an estimated India Net collection of ₹511.10 crore during its first seven days, representing a significant result within the dataset.
+
+The comparative analysis also provides a basis for examining the relationship between theatrical shows, occupancy levels, and daily revenue generation.
+
+*All findings are based on the available dataset and should be interpreted within its coverage and limitations.*
+
+## 9. Project Structure
+
+```text
+Film-Data-Analysis/
+│
+├── Dataset/
+│   └── film_box_office_data.csv
+│
+├── Dashboard/
+│   └── film_analysis.pbix
+│
+├── Screenshots/
+│   └── dashboard_preview.png
+│
+└── README.md
+```
+
+*The directory structure is illustrative and should be updated to reflect the final repository.*
+
+## 10. How to Access the Project
+
+1. Clone or download the repository.
+2. Navigate to the Dataset directory to access the source data.
+3. Open the Power BI project file using Microsoft Power BI Desktop.
+4. Review the dashboard visualizations and analytical measures.
+5. Interact with available filters and report elements to explore the results.
+
+## 11. Data Limitations and Disclaimer
+
+- Box-office figures are based on reported estimates and may be subject to revision.
+- Data availability may vary across films and collection dates.
+- Missing or unavailable values may affect certain calculations.
+- Differences in theatrical release patterns and reporting methodologies should be considered when interpreting comparisons.
+- The analysis is descriptive and does not establish causal relationships between theatrical variables.
+
+## 12. Conclusion
+
+This project demonstrates the application of data analytics and business intelligence techniques to the evaluation of film box-office performance.
+
+Through structured data preparation, KPI development, and interactive Power BI visualizations, the project converts box-office records into an accessible comparative analysis.
+
+The resulting dashboard provides a consolidated view of theatrical revenue, audience occupancy, and distribution-related performance indicators.
+
+---
+
+**Project Category:** Data Analytics | Business Intelligence
+
+**Primary Tool:** Microsoft Power BI
+
+**Documentation:** README.md
